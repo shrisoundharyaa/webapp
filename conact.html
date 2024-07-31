@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Page</title>
+</head>
+<body>
+    <form action="https://httpbin.org/post" method="post">
+        <fieldset>
+            <p>
+                <label for="firstname">First Name:</label>
+                <input type="text" id="firstname" name="FirstName" required>
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="Email" required>
+            </p>
+            <p>
+                <label for="phno">Phone Number:</label>
+                <input type="tel" id="phno" name="PhoneNumber" pattern="[1-9]{1}[0-9]{9}" required>
+            </p>
+            <p>
+                <label for="course">Course:</label>
+                <select name="course" id="course">
+                    <option value="frontend">Frontend</option>
+                    <option value="backend">Backend</option>
+                    <option value="react">React</option>
+                    <option value="angular">Angular</option>
+                </select>
+            </p>
+            <p>
+                <label for="department">Department:</label>
+                <input type="text" name="department" id="department" list="department-list">
+                <datalist id="department-list">
+                    <option value="CSE">CSE</option>
+                    <option value="IT">IT</option>
+                    <option value="EC">EC</option>
+                    <option value="EEE">EEE</option>
+                </datalist>
+            </p>
+            <P>
+                <label for="male">MALE</label>
+                <input type="radio" name="gender" id="male">
+                <label for="female">FEMALE</label>
+                <input type="radio" name="gender" id="female">
+            </P>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -9,3 +9,14 @@ html{
 hr{
     color: black;
 }
+table {
+    border-collapse: collapse;
+}
+table, th, td, caption {
+    border: 1px solid black;
+}
+caption {
+    caption-side: top;
+    padding: 5px;
+    font-weight: bold;
+}
