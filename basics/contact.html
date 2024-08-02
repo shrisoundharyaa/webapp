@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Page</title>
+</head>
+<body>
+    <h2>Contact Me</h2>
+    <form method="GET">
+      <label for="firstname">First Name:</label>
+      <input type="text" id="firstname" name="FRISTNAME" placeholder="First Name" required><br>
+
+      <label for="lastname">Last Name:</label>
+      <input type="text" id="lastname" name="LASTNAME" placeholder="Last Name" required><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="EMAIL" placeholder="Email" required><br>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="PASSWORD" placeholder="Password" required><br>
+
+      Gender:<br>
+      <label for="male"><input type="radio" id="male" name="GENDER" value="Male"> Male</label><br>
+      <label for="female"><input type="radio" id="female" name="GENDER" value="Female"> Female</label><br>
+      <label for="other"><input type="radio" id="other" name="GENDER" value="Other"> Other</label><br>
+      
+      <h2>Here I Need Your Interest</h2><hr><br>
+
+      <label for="programming">Programming:</label>
+      <select id="programming" name="programming">
+        <option value="c">C</option>
+        <option value="java">Java</option>
+        <option value="python">Python</option>
+        <option value="javascript">JavaScript</option>
+        <option value="others">Others</option>
+      </select><br>
+
+      <label for="technology">Technology:</label>
+      <select id="technology" name="technology">
+        <option value="blockchain">BlockChain</option>
+        <option value="cybersecurity">Cybersecurity</option>
+        <option value="web-development">Web Development</option>
+        <option value="fullstack-developer">Fullstack Developer</option>
+        <option value="devops">DevOps</option>
+      </select><br><br>
+
+      <label>Frameworks:</label><br>
+      <label for="react"><input type="checkbox" id="react" name="frameworks" value="react"> React</label><br>
+      <label for="angular"><input type="checkbox" id="angular" name="frameworks" value="angular"> Angular</label><br>
+      <label for="vue"><input type="checkbox" id="vue" name="frameworks" value="vue"> Vue</label><br>
+      <label for="springboot"><input type="checkbox" id="springboot" name="frameworks" value="springboot"> SpringBoot</label><br><br>
+
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset"><br>
+      <p>Please feel free to talk with me about study!</p>
+    </form>
+</body>
+</html>
+<!-- ?FRISTNAME=soundharyaa+shri
+&LASTNAME=s
+&EMAIL=soundharyaashri.cs22%40bitsathy
+&PASSWORD=shri
+&GENDER=Female
+&programming=c
+&technology=blockchain -->
